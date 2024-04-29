@@ -1,0 +1,40 @@
+install.packages('tidyverse')
+install.packages('janitor')
+install.packages("skimr")
+install.packages("dplyr")
+library('tidyverse')
+library('janitor')
+library("skimr")
+library("dplyr")
+
+##import data
+Jan21 <- read_csv("C:/Users/tedyl/Documents/Google Course/202101-tripdata.csv")
+Feb21 <- read_csv("C:/Users/tedyl/Documents/Google Course/202102-tripdata.csv")
+Mar21 <- read_csv("C:/Users/tedyl/Documents/Google Course/202103-tripdata.csv")
+Apr21 <- read_csv("C:/Users/tedyl/Documents/Google Course/202104-tripdata.csv")
+May21 <- read_csv("C:/Users/tedyl/Documents/Google Course/202105-tripdata.csv")
+Jun21 <- read_csv("C:/Users/tedyl/Documents/Google Course/202106-tripdata.csv")
+Jul21 <- read_csv("C:/Users/tedyl/Documents/Google Course/202107-tripdata.csv")
+Agt21 <- read_csv("C:/Users/tedyl/Documents/Google Course/202108-tripdata.csv")
+Sep21 <- read_csv("C:/Users/tedyl/Documents/Google Course/202109-tripdata.csv")
+Oct21 <- read_csv("C:/Users/tedyl/Documents/Google Course/202110-tripdata.csv")
+Nov21 <- read_csv("C:/Users/tedyl/Documents/Google Course/202111-tripdata.csv")
+Dec21 <- read_csv("C:/Users/tedyl/Documents/Google Course/202112-tripdata.csv")
+
+##checking the structure of the dataset
+str(Jan21)
+str(Feb21)
+str(Mar21)
+str(Apr21)
+str(May21)
+str(Jun21)
+str(Jul21)
+str(Agt21)
+str(Sep21)
+str(Oct21)
+str(Nov21)
+str(Dec21)
+
+##Combining data into a new dataset name
+trip_df <- bind_rows(Jan21, Feb21, Mar21, Apr21, May21, Jun21, 
+                     Jul21, Agt21, Sep21, Oct21, Nov21, Dec21)
