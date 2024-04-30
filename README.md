@@ -123,5 +123,5 @@ The final step in this analysis phase tackles the critical question: How can we 
 
 
 Things to consider:
-1. Age & gender data of the members would add dynamic to whether or not customers are being targeted across demographic lines. Is the current marketing effective? Is there potential for more inclusive targeting?
-2. Pricing structure, the actual pricing plans data was not provided in the dataset. It would give further insight into which plans are the most popular and by how much when we compare them. It would also be effective to understand the purchasing/spending behavior of the casual users
+1. Understanding the age and gender distribution of our members is crucial for evaluating the effectiveness of our current marketing strategy. By analyzing these demographics, we can identify if our targeting is inclusive and has the potential to reach a broader audience.
+2. The dataset lacks information on the actual pricing plans offered. Analyzing this data would provide valuable insights into user preferences. We could identify the most popular plans and the extent of their popularity compared to others. Additionally, understanding casual user purchasing and spending behavior would be highly beneficial for optimizing our pricing strategy.
