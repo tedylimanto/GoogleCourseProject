@@ -1,6 +1,6 @@
 # GoogleCourseProject
 
-This article dives into a case study for Cyclistic, a fictional Chicago bike-sharing company, focusing on how its marketing team can solve a business problem through data analysis. I'll be using Rstudio and Tableau to process and analyze the data, following a well-established 6-step process: Ask, Prepare, Process, Analyze, Share, and Act.
+This article dives into a case study for Cyclistic, a fictional Chicago bike-sharing company, focusing on how its marketing team can solve a business problem through data analysis. I'll be using Rstudio to process and analyze the data, following a well-established 6-step process: Ask, Prepare, Process, Analyze, Share, and Act.
 
 ## 1. Ask
 The first step is to clearly define the problems we aim to solve and understand the stakeholders' expectations. To achieve this, we'll delve into three key questions posed by Cyclistic's marketing director.
