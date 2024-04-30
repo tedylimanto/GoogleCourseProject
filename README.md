@@ -43,8 +43,12 @@ Our analysis reveals that casual riders make up about 44% of the total user base
 ### - Daily ride numbers
 ![Rplot2](https://github.com/tedylimanto/GoogleCourseProject/assets/141625821/cfa551c9-ca01-47e1-b98e-d5633dd6b1da)
 
+Weekend trends differ for casual and annual members. Casual riders ramp up their cycling activity on weekends, while members take fewer rides compared to weekdays.
+
 ### - Hourly ride numbers
 ![Rplot01](https://github.com/tedylimanto/GoogleCourseProject/assets/141625821/ef50545a-9357-4986-9c92-952fb3a2ba5d)
+
+Members exhibit a distinct double-peak pattern throughout the day. Their trip frequency surges early in the morning (6-8 AM) and again in the evening (4-8 PM). In contrast, casual riders demonstrate a steady rise in trips throughout the day, peaking in the evening before tapering off.
 
 ### - Monthly ride numbers
 ![Rplot02](https://github.com/tedylimanto/GoogleCourseProject/assets/141625821/a766a1ed-87e2-45b1-b3ff-52cb26895c25)
@@ -52,22 +56,72 @@ Our analysis reveals that casual riders make up about 44% of the total user base
 ### - Seasonal ride numbers
 ![Rplot03](https://github.com/tedylimanto/GoogleCourseProject/assets/141625821/0e5382ea-502a-44f4-9f5e-ad8c347f9411)
 
+Interestingly, both casual and annual members demonstrate similar trip patterns throughout the year, with peak activity in fall and summer and a dip in winter. Notably, the ridership gap between these two groups is narrow during June, the peak summer month.
+
 ### - Most popular station to start
 
-From several statistics above we can conclude that:
-1. 
-
-
 1. Most popular station in general
+
+||Start Station Name|
+|---|---|
+|1|Streeter Dr & Grand Ave|
+|2|Dusable Lake Shore Dr & Monroe St|
+|3|Dusable Lake Shore Dr & Monroe Blvd|
+|4|Michigan Ave & Oak St|
+|5|Wells St & Concord Ln|
+|6|Millenium Park|
+|7|Clark St & Elm St|
+|8|Kingsburry St & Kinzie St|
+|9|Theater on the Lake|
+|10|Wells St & Elm St|
+
 2. Most popular station for casual member
+   
+||Start Station Name|
+|---|---|
+|1|Streeter Dr & Grand Ave|
+|2|Dusable Lake Shore Dr & Monroe St|
+|3|Millenium Park|
+|4|Michigan Ave & Oak St|
+|5|Dusable Lake Shore Dr & North Blvd|
+|6|Shedd Aquarium|
+|7|Theater on the Lake|
+|8|Wells St & Concord Ln|
+|9|Dusable Harbor|
+|10|Clark St & Armitage Ave|
+
 3. Most popular station for annual member
 
+||Start Station Name|
+|---|---|
+|1|Kingsbury St & Kinzie St|
+|2|Clark St & Elm St|
+|3|Wells St & Concord Ln|
+|4|Clinton St & Washington Blvd|
+|5|Loomis St & Lexington St|
+|6|Clinton St & Madison St|
+|7|University Ave & 57th St|
+|8|Ellis Ave & 60th St|
+|9|Wells Street & Elm St|
+|10|Streeter Dr & Grand Ave|
 
+Summary:
 
-## 5. Share
-To reinforce the insights gleaned from our data cleaning process in R, I've created complementary visualizations using Tableau.  These visualizations will bring the data to life and provide a clear picture of the findings.  Head over to my dashboard to explore the interactive results!
+|Casual|Member|
+|---|---|
+|Tends to use bikes throughout the day, more frequently over the weekends in summer and fall for leisure activities|Tends to use bikes on weekdays during commute hours (8 am/5 pm) in summer and fall|
+|Travel 2 times longer but less frequently compared with member|Travel more frequently but with shorter ride duration (Approximately  half of the casual rider's trip duration|
+|Start and end their journey around vocational locations such as parks, museums, along the coast, and other recreational sites|Start and end their journey around working areas such as universities, residential and commercial areas|
 
-## 6. Act
+## 5. Act
 The final step in this analysis phase tackles the critical question: How can we leverage these findings to develop an effective marketing strategy?  Based on the insights we've uncovered throughout this process, I'd like to propose the following suggestions:
 
-1. 
+1. A seasonal or weekend-only membership program may be effective in increasing usage among casual riders during the summer and fall and weekends.
+2. The existing payment structure may be altered to make single-use more expensive to casual riders as well as lowering the long-term membership rate to generate more sales and revenue.
+3. Offering discounts for longer rides to incentivize casual riders and entice members to ride for longer periods.
+4. Marketing campaigns should be conducted during summer at vacation locations that are popular among casual riders
+
+
+Things to consider:
+1. Age & gender data of the members would add dynamic to whether or not customers are being targeted across demographic lines. Is the current marketing effective? Is there potential for more inclusive targeting?
+2. Pricing structure, the actual pricing plans data was not provided in the dataset. It would give further insight into which plans are the most popular and by how much when we compare them. It would also be effective to understand the purchasing/spending behavior of the casual users
